@@ -1,0 +1,1 @@
+# Architecture decisions, state machines, DB schema
