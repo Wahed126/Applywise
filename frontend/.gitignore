@@ -1,3 +1,26 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Production & Build outputs
+dist
+dist-ssr
+*.tsbuildinfo
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+!*.env.example
+!.env.example
+
 # Logs
 logs
 *.log
@@ -7,12 +30,12 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Testing & Coverage
+coverage
+*.lcov
+.nyc_output
 
-# Editor directories and files
+# Editor & OS files
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -22,3 +45,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+*.swo
+*.swn
+*.swp
+*~
+Thumbs.db
