@@ -1,10 +1,10 @@
+import AppLyaout from "./layouts/AppLayout";
+import Dashboard from "./pages/Dashboard";
 
-function App() {
+export default function App() {
   return (
-    <>
-      hello Applywise
-    </>
-  )
+    <AppLyaout>
+      <Dashboard />
+    </AppLyaout>
+  );
 }
-
-export default App
